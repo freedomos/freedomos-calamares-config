@@ -67,7 +67,7 @@ Presentation
 
         Image {
             id: background2
-            source: "slide1.png"
+            source: "slide2.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -122,7 +122,7 @@ Presentation
 
         Image {
             id: background4
-            source: "slide1.png"
+            source: "slide2.png"
             width: parent.width; height: parent.height
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
