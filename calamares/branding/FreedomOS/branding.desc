@@ -124,8 +124,8 @@ navigation: widget
 strings:
     productName:         "@{NAME}"
     shortProductName:    FreedomOS
-    version:             2022
-    shortVersion:        2022
+    version:             2023
+    shortVersion:        2023
     versionedName:       FreedomOS
     shortVersionedName:  FreedomOS
     bootloaderEntryName: FreedomOS
@@ -181,9 +181,9 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
+   sidebarBackground:    "#a020f0"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
+   sidebarTextSelect:    "#a020f0"
    sidebarTextHighlight: "#D35400"
 
 ### SLIDESHOW
