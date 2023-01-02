@@ -95,7 +95,7 @@ Presentation
 
         Image {
             id: background3
-            source: "slide1.png"
+            source: "slide4.png"
             width: parent.width; height: parent.height          
             horizontalAlignment: Image.AlignCenter
     		verticalAlignment: Image.AlignTop
@@ -109,33 +109,6 @@ Presentation
                 font.pixelSize: parent.width *.020
                 color: 'white'
                 text: qsTr("<b> <br/>")
-                wrapMode: Text.WordWrap
-                width: parent.width / 1.4
-                horizontalAlignment: Text.AlignHCenter
-            }
-        }
-    }
-
-    Slide {
-        anchors.fill: parent
-        anchors.verticalCenterOffset: 0
-
-        Image {
-            id: background4
-            source: "slide2.png"
-            width: parent.width; height: parent.height
-            horizontalAlignment: Image.AlignCenter
-    		verticalAlignment: Image.AlignTop
-    		
-            anchors.fill: parent
-
-            Text {
-                anchors.centerIn: parent
-                anchors.verticalCenterOffset: 165
-                anchors.horizontalCenterOffset: 0
-                font.pixelSize: parent.width *.020
-                color: 'white'
-                text: qsTr("<b>Thank you for trying FreedomOS<br/>")
                 wrapMode: Text.WordWrap
                 width: parent.width / 1.4
                 horizontalAlignment: Text.AlignHCenter
